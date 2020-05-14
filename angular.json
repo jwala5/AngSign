@@ -122,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "FormPro"
+  "defaultProject": "FormPro",
+  "cli": {
+    "analytics": "49418c9f-d6a7-499d-9f39-5e97efbe111e"
+  }
 }

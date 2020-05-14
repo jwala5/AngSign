@@ -5,9 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { AuthModule } from './auth/auth.module';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { MiddleComponent } from './middle/middle.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent,
+    MiddleComponent
   ],
   imports: [
     SharedModule,
